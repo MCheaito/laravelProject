@@ -64,3 +64,15 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Commands
+
+Create the application :  composer create-project --prefer-dist laravel/laravel hotelApp "^11.0"
+
+Install maryUi
+
+cd hotelApp 
+
+composer require robsontenorio/mary
+
+php artisan mary:bootcamp
